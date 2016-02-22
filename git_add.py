@@ -9,8 +9,8 @@ def git_add(url,comment):
 	string = "git commit -m " + comment
 	os.system(string)
 	#string = "git remote add origin https://github.com/sumanthm1019/"+url
-	os.system(string)
-	
+	#os.system(string)
+	os.system("git push -u origin master")
 	
 	
 if __name__ == "__main__":
