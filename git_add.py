@@ -8,7 +8,7 @@ def git_add(url,comment):
 	os.system("git add .")
 	string = "git commit -m " + comment
 	os.system(string)
-	string = "git remote add origin https://github.com/sumanthm1019/"+url
+	#string = "git remote add origin https://github.com/sumanthm1019/"+url
 	os.system(string)
 	
 	
